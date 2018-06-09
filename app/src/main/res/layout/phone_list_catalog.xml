@@ -1,0 +1,10 @@
+<TextView android:id="@+id/phone_text"
+    android:layout_width="match_parent"
+    android:textColor="#000"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:textStyle="bold"
+    android:text="Город"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+

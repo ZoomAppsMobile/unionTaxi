@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name_city"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Город"
+        />
+    <TextView
+        android:id="@+id/id_city"
+        android:layout_width="match_parent"
+        android:textColor="#28a4c0"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:text="Город"
+        />
+
+    <TextView
+        android:id="@+id/city_lat"
+        android:layout_width="match_parent"
+        android:textColor="#28a4c0"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:text="Город"
+        />
+
+    <TextView
+        android:id="@+id/city_lot"
+        android:layout_width="match_parent"
+        android:textColor="#28a4c0"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:text="Город"
+        />
+
+
+</LinearLayout>

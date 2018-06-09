@@ -1,0 +1,111 @@
+package com.union.zoomapps.myapplication.mvp.models;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+/**
+ * Created by Asus on 02.03.2018.
+ */
+
+public class UberPrices {
+    @SerializedName("localized_display_name")
+    @Expose
+    private String localizedDisplayName;
+    @SerializedName("distance")
+    @Expose
+    private Double distance;
+    @SerializedName("display_name")
+    @Expose
+    private String displayName;
+    @SerializedName("product_id")
+    @Expose
+    private String productId;
+    @SerializedName("high_estimate")
+    @Expose
+    private int highEstimate;
+    @SerializedName("low_estimate")
+    @Expose
+    private int lowEstimate;
+    @SerializedName("duration")
+    @Expose
+    private Integer duration;
+    @SerializedName("estimate")
+    @Expose
+    private String estimate;
+    @SerializedName("currency_code")
+    @Expose
+    private Object currencyCode;
+
+    public String getLocalizedDisplayName() {
+        return localizedDisplayName;
+    }
+
+    public void setLocalizedDisplayName(String localizedDisplayName) {
+        this.localizedDisplayName = localizedDisplayName;
+    }
+
+    public Double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(Double distance) {
+        this.distance = distance;
+    }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
+    }
+
+    public String getProductId() {
+        return productId;
+    }
+
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
+
+    public int getHighEstimate() {
+        return highEstimate;
+    }
+
+    public void setHighEstimate(int highEstimate) {
+        this.highEstimate = highEstimate;
+    }
+
+    public int getLowEstimate() {
+        return lowEstimate;
+    }
+
+    public void setLowEstimate(int lowEstimate) {
+        this.lowEstimate = lowEstimate;
+    }
+
+    public Integer getDuration() {
+        return duration;
+    }
+
+    public void setDuration(Integer duration) {
+        this.duration = duration;
+    }
+
+    public String getEstimate() {
+        return estimate;
+    }
+
+    public void setEstimate(String estimate) {
+        this.estimate = estimate;
+    }
+
+    public Object getCurrencyCode() {
+        return currencyCode;
+    }
+
+    public void setCurrencyCode(Object currencyCode) {
+        this.currencyCode = currencyCode;
+    }
+
+}

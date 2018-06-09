@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Үй</string>
+    <string name="setting">Параметрлер</string>
+    <string name="catalog">Каталогы</string>
+    <string name="about">Өтініш туралы</string>
+    <string name="compare">СРАВНИ ТАКСИ</string>
+    <string name="from">Қайдана</string>
+    <string name="to">Қайда?</string>
+    <string name="allow">Рұқсат етіңіз</string>
+    <string name="deny">Қабылдамау</string>
+    <string name="allowGeoLocation">«Union Такси» бағдарламасының географияңызға кіруіне рұқсат беріңіз бе?</string>
+    <string name="donotLocation">Анықтау мүмкін емес</string>
+    <string name="choseCity">Тізімнен өз қалаңызды таңдаңыз</string>
+    <string name="country">Ел</string>
+    <string name="city">Қала</string>
+    <string name="cityPointer">Қала:</string>
+    <string name="clock">10 МИНУТТАН СОҢ</string>
+    <string name="card">ЕШҚАШАН</string>
+    <string name="economy">ЭКОНОМ</string>
+    <string name="comfort">КОМФОРТ</string>
+    <string name="miniven">МИНИВЕН</string>
+    <string name="noCity">Көрсетілмеген</string>
+    <string name="language">language</string>
+    <string name="installation_language">Тілді орнату...</string>
+    <string name="warning">Алдын алу</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="search">Іздеу</string>
+    <string name="pirmisson">Рұқсат етіңіз</string>
+    <string name="nopermission">Рұқсат етпеңіз</string>
+    <string name="locationAsk">Геолокацияны анықтауға рұқсат</string>
+    <string name="currentLocation">Менің орналасқан жерім</string>
+</resources>

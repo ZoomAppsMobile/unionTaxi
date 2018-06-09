@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="catalog">Catalog</string>
+    <string name="about">About app</string>
+    <string name="compare">COMPARE THE TAXI</string>
+    <string name="from">From where</string>
+    <string name="to">Where</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="allowGeoLocation">Allow the "Union Taxi" program access to your geography while you work with it?</string>
+    <string name="donotLocation">It is impossible to determine</string>
+    <string name="choseCity">Choose your city from the list</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="cityPointer">City:</string>
+    <string name="clock">IN 10 MINUTES</string>
+    <string name="card">NONSELVES</string>
+    <string name="economy">ECONOMY</string>
+    <string name="comfort">COMFORT</string>
+    <string name="miniven">MINIVEN</string>
+    <string name="noCity">Not specified</string>
+    <string name="floatingActionButtonText"></string>
+    <string name="language">language</string>
+    <string name="installation_language">Setting the language...</string>
+    <string name="warning">Warning</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="pirmisson">Allow</string>
+    <string name="nopermission">Do not Allow</string>
+    <string name="locationAsk">ermission to determine geolocation</string>
+    <string name="currentLocation">My location</string>
+</resources>

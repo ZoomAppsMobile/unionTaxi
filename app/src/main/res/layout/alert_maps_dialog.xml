@@ -1,0 +1,118 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        android:layout_marginTop="-2dp"
+        app:contentInsetStartWithNavigation="72dp"
+        android:padding="0dp"
+        android:layout_height="wrap_content">
+        <include layout="@layout/custom_toolbar"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/yesLocation"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/allowGeoLocation"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnOn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="@string/allow"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="@string/deny"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/NoLocation"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/headerOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donotLocation"
+            android:paddingBottom="30dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/textCountryOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choseCity"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnOKCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="OK"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

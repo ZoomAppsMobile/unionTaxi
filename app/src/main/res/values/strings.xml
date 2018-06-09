@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">UnionTaxi</string>
+    <string name="title_activity_maps">UnionTaxi</string>
+    <string name="open_navigation">open_navigation</string>
+    <string name="language">language</string>
+    <string name="search">Search</string>
+    <string name="home">Главная</string>
+    <string name="setting">Настройки</string>
+    <string name="catalog">Каталог</string>
+    <string name="about">О приложении</string>
+    <string name="compare">СРАВНИ ТАКСИ</string>
+    <string name="from">От куда</string>
+    <string name="to">Куда</string>
+    <string name="allow">Разрешить</string>
+    <string name="deny">Запретить</string>
+    <string name="allowGeoLocation">Разрешить программе «Union Taxi» доступ к Вашей геопозиции, пока Вы работаете с ней?</string>
+    <string name="donotLocation">Невозможно определить</string>
+    <string name="choseCity">Выбирите ваш город из списка</string>
+    <string name="country">Страна</string>
+    <string name="city">Город</string>
+    <string name="cityPointer">Город:</string>
+    <string name="clock">ЧЕРЕЗ 10 МИН</string>
+    <string name="card">БЕЗНАЛ</string>
+    <string name="economy">ЭКОНОМ</string>
+    <string name="comfort">КОМФОРТ</string>
+    <string name="miniven">МИНИВЕН</string>
+    <string name="noCity">Не указан</string>
+    <string name="installation_language">Установка языка...</string>
+    <string name="warning">Предупреждение</string>
+    <string name="cancel">Отмена</string>
+    <string name="pirmisson">Разрешить</string>
+    <string name="nopermission">Не разрешать</string>
+    <string name="locationAsk">Разрешение на определение геолокации</string>
+</resources>

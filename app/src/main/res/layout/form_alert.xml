@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Введите Ваше имя"
+        app:layout_constraintBottom_toTopOf="@+id/phone_number_user"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/phone_number_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Введите Ваш номер телефона"
+        app:layout_constraintBottom_toTopOf="@+id/email_user"
+        tools:layout_editor_absoluteX="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/email_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="215dp"
+        android:hint="Введите Ваш email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+
+</android.support.constraint.ConstraintLayout>

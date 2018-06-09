@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">主</string>
+    <string name="setting">設置</string>
+    <string name="catalog">目錄</string>
+    <string name="about">關於應用程序</string>
+    <string name="compare">СРАВНИ ТАКСИ</string>
+    <string name="from">從哪裡</string>
+    <string name="to">哪裡</string>
+    <string name="allow">解決</string>
+    <string name="deny">禁止</string>
+    <string name="allowGeoLocation">Р允許聯合出租車計劃在您使用它時訪問您的地理位置？</string>
+    <string name="donotLocation">這是不可能確定的</string>
+    <string name="choseCity">從列表中選擇你的城市</string>
+    <string name="country">國家</string>
+    <string name="city">城市</string>
+    <string name="cityPointer">城市:</string>
+    <string name="clock">威盛10分鐘</string>
+    <string name="card">空地</string>
+    <string name="economy">經濟</string>
+    <string name="comfort">COMFORT</string>
+    <string name="miniven">麵包車</string>
+    <string name="noCity">未指定</string>
+    <string name="language">language</string>
+    <string name="installation_language">設置語言...</string>
+    <string name="warning">預防</string>
+    <string name="cancel">消除</string>
+    <string name="search">搜索</string>
+    <string name="pirmisson">解決</string>
+    <string name="nopermission">不要讓</string>
+    <string name="locationAsk">允許確定地理位置</string>
+</resources>
